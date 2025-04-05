@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import LandingSection from './components/LandingSection';
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
       <Header />
@@ -11,4 +11,6 @@ export default function Home() {
       <footer></footer>
     </div>
   );
-}
+};
+
+export default Home;
