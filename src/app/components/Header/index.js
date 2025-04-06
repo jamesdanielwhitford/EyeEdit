@@ -11,19 +11,29 @@ const Header = () => {
         <nav className={styles.nav}>
           <ul className={styles['nav-list']}>
             <li className={styles['nav-item']}>
-              <button className={styles['nav-link']}>Services</button>
+              <a href="#services" className={styles['nav-link']}>
+                Services
+              </a>
             </li>
             <li className={styles['nav-item']}>
-              <button className={styles['nav-link']}>Testimonials</button>
+              <a href="#testimonials" className={styles['nav-link']}>
+                Testimonials
+              </a>
             </li>
             <li className={styles['nav-item']}>
-              <button className={styles['nav-link']}>Pricing</button>
+              <a href="#pricing" className={styles['nav-link']}>
+                Pricing
+              </a>
             </li>
             <li className={styles['nav-item']}>
-              <button className={styles['nav-link']}>Contact</button>
+              <a href="#contact" className={styles['nav-link']}>
+                Contact
+              </a>
             </li>
             <li className={styles['nav-item']}>
-              <button className={styles['nav-link']}>FAQ</button>
+              <a href="#faq" className={styles['nav-link']}>
+                FAQ
+              </a>
             </li>
           </ul>
         </nav>
